@@ -1,4 +1,4 @@
-.container {
+/* .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -73,5 +73,106 @@
   
   .game-details-container button:hover {
     background-color: #3e8e41;
-  }
+  } */
   
+  /* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.game-list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.game-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #1d1d1d;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.game-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.game-item h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
+}
+
+.game-item p {
+  font-size: 1rem;
+  margin: 10px;
+  text-align: center;
+}
+
+.game-details-container {
+  margin-top: 40px;
+}
+
+.game-details-container img {
+  max-width: 300px;
+  max-height: 400px;
+  margin-bottom: 20px;
+}
+
+.game-details-container h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.game-details-container p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+#purchase-btn,
+#refund-btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #1d1d1d;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#purchase-btn:hover,
+#refund-btn:hover {
+  background-color: #fff;
+  color: #1d1d1d;
+}
