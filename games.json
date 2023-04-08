@@ -1,0 +1,35 @@
+{
+"games": [
+    {
+      "id": "1",
+      "title": "Super Mario Bros.",
+      "description": "A classic platform game where you play as Mario and save Princess Toadstool from Bowser.",
+      "image": "https://www.mariowiki.com/images/thumb/9/9d/Super_Mario_Bros._-_%28NES%29_-_Box_Art.jpg/1200px-Super_Mario_Bros._-_%28NES%29_-_Box_Art.jpg",
+      "price": 10.99
+    },
+    { 
+      "id": "2",
+      "title": "The Legend of Zelda",
+      "description": "An action-adventure game where you play as Link and explore the land of Hyrule to rescue Princess Zelda and defeat Ganon.",
+      "image": "https://www.mariowiki.com/images/thumb/9/9d/Super_Mario_Bros._-_%28NES%29_-_Box_Art.jpg/1200px-Super_Mario_Bros._-_%28NES%29_-_Box_Art.jpg",
+      "price": 12.99
+    },
+    { 
+      "id": "3",
+      "title": "Mega Man 2",
+      "description": "A side-scrolling action game where you play as Mega Man and defeat robot bosses to save the world from Dr. Wily.",
+      "image": "https://www.mariowiki.com/images/thumb/9/9d/Super_Mario_Bros._-_%28NES%29_-_Box_Art.jpg/1200px-Super_Mario_Bros._-_%28NES%29_-_Box_Art.jpg",
+      "price": 8.99
+    },
+    {   
+    
+      "id": "4",
+      "title": "Final Fantasy",
+      "description": "A role-playing game where you play as the Warrior of Light and save the world from chaos and darkness.",
+      "image": "https://www.mariowiki.com/images/thumb/9/9d/Super_Mario_Bros._-_%28NES%29_-_Box_Art.jpg/1200px-Super_Mario_Bros._-_%28NES%29_-_Box_Art.jpg",
+      "price": 14.99
+    }
+  ]
+}
+
+  
